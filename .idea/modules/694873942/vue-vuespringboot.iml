@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="vuespringboot" external.linked.project.path="/media/rain/Work/codes/vue/vuespringboot" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="com.rain.demo" external.system.module.version="1.0" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file:///media/rain/Work/codes/vue/vuespringboot">
+      <excludeFolder url="file:///media/rain/Work/codes/vue/vuespringboot/.gradle" />
+      <excludeFolder url="file:///media/rain/Work/codes/vue/vuespringboot/build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

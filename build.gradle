@@ -1,0 +1,18 @@
+group 'com.rain.demo'
+version '1.0'
+
+buildscript {
+    repositories {
+        //jcenter()
+        maven{url 'http://jcenter.bintray.com'}
+    }
+    dependencies {
+    }
+}
+
+allprojects {
+    repositories {
+        //jcenter()
+        maven{url 'http://jcenter.bintray.com'}
+    }
+}

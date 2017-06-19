@@ -1,0 +1,23 @@
+plugins {
+    id 'org.springframework.boot' version '1.5.4.RELEASE'
+    id 'java'
+}
+
+jar {
+    baseName = 'server'
+    version =  '1.0'
+}
+
+repositories {
+    //使用淘宝的maven镜像
+    //maven{ url 'http://maven.aliyun.com/nexus/content/groups/public'}
+}
+
+dependencies {
+    compile project(':web')//server模块依赖web模块
+    compile("org.springframework.boot:spring-boot-starter-web")
+    compile("org.springframework.boot:spring-boot-devtools")
+    compile("org.thymeleaf:thymeleaf-spring4")
+    compile("nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect")
+    testCompile("org.springframework.boot:spring-boot-starter-test")
+}
