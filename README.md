@@ -1,2 +1,2 @@
 # gradle-vue-springboot
-Project Framework: Gradle+SpringBoot+Vue
+Project Base Framework: Gradle+SpringBoot+Vue
