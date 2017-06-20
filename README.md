@@ -1,5 +1,7 @@
-# gradle-vue-springboot
-> Project Base Framework: Gradle+SpringBoot+Vue
+# Project Base Framework
+> Gradle+SpringBoot+Vue
+
+### Build Project
 
 ### Support eslint for vue
 npm install -save-dev eslint-config-vue@latest <br/>
