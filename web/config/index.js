@@ -5,7 +5,7 @@ var assetsRoot = path.resolve(__dirname, '../build/resources/main/static')// <--
 module.exports = {
   build: {
     env: require('./prod.env'),
-    index: path.resolve(__dirname, 'index.html'),
+    index: path.resolve(assetsRoot, 'index.html'),
     assetsRoot: assetsRoot,
     assetsSubDirectory: 'assets',
     assetsPublicPath: '/',
